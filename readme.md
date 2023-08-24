@@ -117,6 +117,7 @@ generate_presigned_url
 ## 代码示例
 
 ```python
+from upyuns3client.upyuns3client import UpYunS3Client
 ak = "xxxxx"
 sk = "xxxxx"
 client = UpYunS3Client(ak, sk)
