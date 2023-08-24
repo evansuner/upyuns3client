@@ -7,7 +7,7 @@ setup(
     author="Evan",
     author_email="zhidong.s@outlook.com",
     description="UpYun Storage SDK for Python S3 Support",
-    long_description=open("README.md").read(),
+    long_description=open("README.md", mode="r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     license="License :: OSI Approved :: MIT License",
     packages=find_packages(),

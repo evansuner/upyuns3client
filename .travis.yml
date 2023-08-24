@@ -15,3 +15,4 @@ deploy:
     tags: true
     python: 3.9
   skip_existing: true
+  verbose: true
